@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For icons in Website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- For title of the Website -->
+    <title>PRANAY KUMAR Portfolio</title>
+
+    <!-- For CSS Connection -->
+    <link rel="stylesheet" href="Portfolio.css">
+
+    <!-- For logo in Website -->
+    <link rel="icon" href="image/Brand.jpg" type="image/x-icon">
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+
+    <!-- For typed in Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<body>
+    
+<!-- Home portion -->
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h1><span class="span">PRANAY</span><span class="span1">KUMAR</span></h1>
+                <ul id="sidemenu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Key-Skills">Key-Skills</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-table" id="Home">
+               <div class="table">
+                    <div class="tr">
+                       <div class="td-left">
+                            <p><span class="writing"></span></p>
+                            <h1>Hi, I'm <span class="h">PRANAY</span> KUMAR from India</h1>
+                       </div>
+                        <div class="td-right"><img src="image/title.png" alt="not available" class="image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- About ME portion -->
+    <div class="about" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="column1">
+                    <img src="PRANAY.jpg" alt="not available" class="column1">
+                </div>
+                <div class="column2">
+                    <h1 class="heading">About <span class="Me">Me</span></h1>
+                    <p>Hi, I'am PRANAY KUMAR FROM DHANBAD. <br>I HAVE DONE MY SCHOOLING FROM DHANBAD PUBLIC SCHOOL, DHANBAD.<br> CURRENTLY, I'M PURSUING BTECH FROM GIET UNIVERSITY GUNUPUR.<br> CURRENTLY STUDENTS ARE LOOKING TO PURSUE A GOOD CAREER IN COMPUTER SCIENCE DEPARTMENT IN A GOOD AND BIG MNC.<br> ABILITY TO COMPLETE TASKS ON TIME OPTIMIZED WEBSITE PERFORMANCE BY USING WEB DEVELOPEMENT TOOLS AND TECHNIQUES LIKE CODING, DEVELOPEMENT, WORKSHOP AND CONCATINATION</p>
+                    <div class="important">
+                        <p class="about_me_nav current" onclick="openthis('skills')">Skills</p>
+                        <p class="about_me_nav" onclick="openthis('internships')">Internships & Trainings</p>
+                        <p class="about_me_nav" onclick="openthis('education')">Education</p>
+                    </div>
+                    <div class="about_me_detail my" id="skills">
+                        <ul>
+                            <li><span>WEB DEVELOPEMENT</span><br>DEVOLOPING A DYNAMIC AS WELL AS STATIC WEBSITR</li>
+                            <li><span>COMPETITIVE PROGRAMING</span><br>BUILDING PROGRAMES WITH THE HELP OF DSA, JS ,PYTHON</li>
+                            <li><span>PYTHON ,DATA STRUCTURE AND ALGORITHUM</span><br>FOR MAKING THE EFFECTIVE CODES WITH ADVANCE LEVEL OF CODING TECHNIQUE AND MAINTAIN THE TIME COMPLEXICITY AS WELL AS SPACE COMPLEXICITY. DOING INTENCE PROGRAMING FOR USING AND MAKING PROPER AND BETTER USER FRIENDLY WEBSITE</li>
+                        </ul>
+                    </div>
+                    <div class="about_me_detail" id="internships">
+                        <ul>
+                            <li><span>CodSoft</span><br>IN THIS INTERNSHIP PROGRAME, CREATED A DYNAMIC AS WELL AS STATIC WEBSITE LIKE PORTFOLIO,LANDING PAGE,CALCULATOR.</li>
+                            <li><span>Oasis</span><br>.</li>IN THIS INTERNSHIP PROGRAME, CREATED A DYNAMIC AS WELL AS STATIC WEBSITE LIKE PORTFOLIO,LANDING PAGE,CALCULATOR
+                            <li><span>Training of C++</span><br>FOR MAKING THE EFFECTIVE CODE WITH OPPS CONCEPT &LEARNED THAT HOW TO USEF THE STL IN COMPETATIVE PROGRAMMING & USING JS,PYTHON, HTML CSS.</li>
+                            <li><span>Training of Web-Development</span><br>CODSOFT TRAINING, ONLINE<br><strong>04 MARCH 2024 TO 4TH APRIL 2024</strong><br>SUCCESFULLY COMPLETED 3 WEEKS IN INTERNPE 4 WEEKS WITH 3 ASSINGMENT TO BE EXECUTEDS ON WEB DEVELOPEMNT . THE TRAINING CONSIST OF <strong>HTML, CSS, JS, PHP.</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about_me_detail" id="education">
+                        <ul>
+                            <li><span>COMPUTER SCIENCE (CSE)</span><br>GANDHI INSTITUTE OF ENGINEERING & TECHNOLOGY UNIVERSITY  <strong>CURRENTLY READING IN THE SEASSION(2022-2026)</strong><br>CGPA: <span>8/10</span></li>
+                            <li><span>SENIOUR SECONDARY(12th), SCIENCE</span><br>DHANBAD PUBLIC SCHOOL <strong>(CBSE BOARD)</strong><br>Year of Completion: <span>2021</span><br>Percentage: <span>80.00%</span>
+                            </li>
+                            <li><span>SECONDARY(10th)</span><br>DHANBAD PUBLIC SCHOOL<strong>(CBSE BOARD)</strong><br>Year of Completion: <span>2019</span><br>Percentage: <span>80.00%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Key-Skills portion -->
+    <div class="Key-Skills" id="Key-Skills">
+        <div class="myskills">
+            <h1 class="title"><span class="Me">My Skills</span></h1>
+            <div class="skills">
+                <div class="column left">
+                    <div class="text">MY CREATIVE SKILLS AND TRAINING</div>
+                    <p>Hi, I'am PRANAY KUMAR I AN FROM DHANBAD. <br> I HAVE SKILl TECHNICAL FIELD.<br> CURRENTLY, I AM PURSURING INTERNSHIP FROM CODSOFT.<br> CURRENTLY STUDENTS ARE LOOKING TO JOIN THE WORKSHOP TO GAIN REAL-WORLD EXPERIENCE.<br> ABILITY TO COMPLETE TASK ON TIME OPTIMIZED WEBSITE PERFORMANCE BY UING WEB DEVELOPEMENT TOOLS HTML , JS, PYHTON , PHP.<br>
+        
+                    <a href="#" class="readme">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="information">
+                            <span>C</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line c"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                         <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>HTML/CSS</span>
+                            <span>80%</span>
+                        </div>
+                         <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>JS</span>
+                            <span>70%</span>
+                        </div>
+                         <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>PHP</span>
+                            <span>50%</span>
+                        </div>
+                         <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>DSA</span>
+                            <span>80%</span>
+                        </div>
+                         <div class="line dsa"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>SQL</span>
+                            <span>70%</span>
+                        </div>
+                         <div class="line sql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>OS</span>
+                            <span>85%</span>
+                        </div>
+                         <div class="line os"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>Software Engineering</span>
+                            <span>80%</span>
+                        </div>
+                         <div class="line se"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>DBMS</span>
+                            <span>80%</span>
+                        </div>
+                         <div class="line dbms"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>OOPs</span>
+                            <span>60%</span>
+                        </div>
+                         <div class="line oops"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Potfolio Portion -->
+    <div class="Portfolio" id="Portfolio">
+        <div class="container">
+           
+
+
+<!-- Contact Me Portion-->
+    <div class="Contact" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title1">CONTACT  <span class="Me">ME</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kumarpranay123@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 75236XXXXX</p>
+                    <div class="social-media">
+                        <a href="www.linkedin.com/in/pranay-kumar-9b23a12b6"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/pranaykumar364"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/praanay._?igsh=MWFpd2J6d3hpajJ1aA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100071866910498&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="#" download class="btn btn1">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; PRANAY. Made with <i class="fas fa-heart"></i> by PRANAY KUMAR</p>
+        </div>
+    </div> 
+
+<!-- Javascript Connection  -->
+    <script type="text/Javascript" src="Portfolio.js"></script>
+</body>
+</html>
